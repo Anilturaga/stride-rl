@@ -1,6 +1,8 @@
 # Stride RL
 Training agents to take fewer, longer-lasting decisions in Gymnasium environments. This is a minimal demonstration of adaptive action repetition and its effect on long-horizon control.
 
+Blog post: https://anilturaga.github.io/stride-rl
+
 > We refer to models with adaptive action repetition enabled as sleep models and the vanilla/baseline models as no-sleep. In this repository, sleep is just skipping inference for some time steps but still accumulating rewards.
 
 ![Sleep policy beats no-sleep baseline](assets/trained-model-test-runs.gif)
